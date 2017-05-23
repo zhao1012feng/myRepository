@@ -1,0 +1,101 @@
+/* CSS Document */
+.clear {
+	clear: both;
+}
+
+li.active>a {
+	border-color: #0e6eba !important;
+}
+
+.theme-whbl #sidebar-nav .nav li .submenu>li>a.show_web {
+	color: #0e6eba !important;
+}
+
+.showTab {
+	background: #dbdee5;
+}
+
+.theme-whbl  #theme-wrapper .content-wrapper {
+	background: url(../img/homepage.png) no-repeat center 10% #fff;
+	background-size: 80% auto;
+}
+
+.title_home {
+	margin-top: 3%;
+	text-align: center;
+}
+
+.title_home h1 {
+	color: #5a5a5a;
+	font-size: 35px;
+	font-family: "宋体";
+	font-style: italic;
+	font-weight: bold;
+	letter-spacing: .4em;
+}
+
+.row dl {
+	margin-left: 3%;
+	font-size: 20px;
+	font-family: "΢���ź�";
+}
+
+.row dl dt {
+	color: #F00;
+	font-weight: normal;
+	float: left;
+	clear: both;
+	margin-top: .5em;
+	font-size: .8em;
+	line-height: 24px;
+	width: 20%;
+}
+
+.row dl dd {
+	color: #000;
+	float: left;
+	margin-top: .5em;
+	font-size: .8em;
+	line-height: 24px;
+	width: 80%;
+}
+
+.row dl dd span {
+	color: #F00;
+	padding: 0 10px;
+	font-size: 1em;
+	line-height: 24px;
+}
+
+.task_date {
+	font-size: 20px;
+	font-family: "΢���ź�";
+	width: 100%;
+	margin-top: 3em;
+}
+
+.middle_line {
+	border-left: 1px solid #ccc
+}
+
+.hei_percent {
+	min-height: 700px;
+	border-top: 1px solid #ccc;
+}
+
+.task {
+	
+}
+
+.task h5 {
+	font-size: 20px;
+	font-family: "΢���ź�";
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1199px) {
+	.hei_percent {
+		min-height: 0;
+		padding-bottom: 30px;
+		border-left: none;
+	}
+}

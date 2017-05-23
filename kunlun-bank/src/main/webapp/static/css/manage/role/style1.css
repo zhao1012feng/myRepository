@@ -1,0 +1,27 @@
+body {
+	font-size: 12px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 12px;
+}
+
+table {
+	font-size: 12px;
+}
+
+.birthday {
+	float: right;
+	padding: 4px 3px 0px 0px;
+	margin: 0px;
+	height: 20px;
+	text-align: left;
+	width: 150px;
+	line-height: 20px;
+	vertical-align: middle;
+	color: #ffffff;
+}
+
+td {
+	font-size: 12px;
+}

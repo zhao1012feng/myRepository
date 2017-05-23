@@ -1,0 +1,14 @@
+label.error {
+	margin-left: 10px;
+	width: auto;
+	display: inline;
+}
+
+form label.error, label.error {
+	color: red;
+	font-style: normal;
+}
+
+input.error {
+	border: 1px solid red;
+}

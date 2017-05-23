@@ -1,0 +1,109 @@
+.price_tag {
+	color: #f00;
+}
+
+.caption h3 {
+	overflow: hidden;
+	display: block;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	font-size: 20px;
+}
+
+#productDetails {
+	box-sizing: content-box;
+}
+
+.dl-horizontal dd:nth-child(2) {
+	color: #f00;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+input.form-control {
+	background-color: #fff;
+	background-image: none;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #555;
+	display: block;
+	font-size: 14px;
+	height: 34px;
+	line-height: 1.42857;
+	padding: 6px 12px;
+	transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s
+		ease-in-out 0s;
+	width: 100%;
+}
+
+.slider-pro {
+	margin-bottom: 3rem;
+	margin-top: 3rem;
+}
+
+.productName {
+	text-align: center;
+}
+
+.detailed {
+	width: 100%;
+}
+
+.detailed dl {
+	width: 50%;
+	float: left;
+	box-sizing: border-box;
+}
+
+.detailed dl dt {
+	clear: both;
+	width: 30%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	float: left;
+	text-align: right;
+	line-height: 40px;
+}
+
+.detailed dl dd {
+	float: left;
+	width: 40%;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-indent: 2rem;
+	line-height: 40px;
+}
+
+input.search-query {
+	line-height: 30px;
+	height: 30px;
+}
+
+.form-search {
+	margin: 0;
+}
+
+.navbar-inner {
+	position: fixed;
+	width: 96%;
+}
+
+.navbar {
+	margin-bottom: 55px;
+}
+
+li.span2 {
+	margin-top: 10px;
+}
+
+.wizard-input-section {
+	margin-bottom: 0;
+}
+
+.nav-collapse.collapse {
+	padding: 10px 0;
+}

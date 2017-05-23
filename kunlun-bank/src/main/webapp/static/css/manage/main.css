@@ -1,0 +1,96 @@
+body {
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+	background: #FFFFFF;
+	text-transform: capitalize;
+	font-size: 12px;
+}
+
+body, button, input, select, textarea {
+	font-size: 12px;
+	font-family: "宋体";
+}
+
+div, ol, ul, li, dir, form, img, span, h1, h2, h3, h4, h5, select,
+	option, table, tr, td, input {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	list-style-type: none;
+	list-style: none;
+	border: none
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+a:link {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+	font-family: "" 宋体 "";
+}
+
+a:visited {
+	font-size: 9pt;
+	color: #000000;
+	text-decoration: none;
+	font-family: "" 宋体 "";
+}
+
+a:hover {
+	color: blue;
+	font-family: "" 宋体 "";
+}
+
+.rows {
+	line-height: 26px;
+	background-color: #f7fbfe;
+	cursor: hand;
+}
+
+.rowf {
+	line-height: 26px;
+	background-color: #e8f6ff;
+	cursor: hand;
+}
+
+.right_top {
+	height: 25px;
+	line-height: 25px;
+	background: url(../../images/manage/main/right_shang_03.jpg) repeat-x;
+	padding-left: 20px;
+	color: #0084d0
+}
+
+.right_sousuo {
+	height: 38px;
+	border: 1px solid #afd0f1;
+}
+
+input {
+	border: none
+}
+
+.input_style {
+	width: 170px;
+	height: 20px;
+	font-size: 12px;
+	border: #666 1px solid;
+	margin-left: 15px;
+	line-height: 20px;
+}
+
+.input_anniu {
+	background: url(../../images/manage/main/anniu_03.jpg) no-repeat;
+	width: 73px;
+	height: 28px;
+	border: none;
+	text-align: center;
+	line-height: 28px;
+	margin-right: 20px;
+	cursor: hand;
+}

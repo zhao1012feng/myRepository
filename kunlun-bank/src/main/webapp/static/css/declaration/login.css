@@ -1,0 +1,100 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+img {
+	border: none;
+}
+
+body {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	background: #d6d6d6;
+}
+
+.clear {
+	clear: both;
+}
+
+.l_zc {
+	width: 557px;
+	height: 362px;
+	background: #f3f3f3;
+	margin: 100px auto;
+	padding-top: 1px;
+}
+
+.l_top {
+	margin: 6px 6px 10px 7px;
+	z-index: 1px;
+	background: url(../../images/declare/login/login.gif) no-repeat left;
+	width: 544px;
+	height: 345px;
+}
+
+.l_mid {
+	width: 544px;
+	height: 175px;
+	padding-top: 120px;
+	margin: 0px 10px 0 0;
+}
+
+.l_mid table {
+	float: right;
+	margin: 10px 70px 0 0;
+	width: 260px;
+	display: inline;
+}
+
+.l_mid table th {
+	height: 30px;
+	line-height: 30px;
+	width: 60px;
+	font-weight: normal;
+}
+
+.l_mid table .l_k {
+	height: 24px;
+	line-height: 24px;
+	color: #ff0000;
+	padding-left: 12px;
+}
+
+.l_mid table input {
+	height: 20px;
+	line-height: 20px;
+	width: 130px
+}
+
+.l_mid table td .l_button1, .l_mid table td .l_button2 {
+	width: 75px;
+	height: 24px;
+	border: none;
+	margin-right: 5px;
+}
+
+.l_mid table td .l_button1 {
+	background: url(../../images/declare/login/login_dl.gif) no-repeat left
+		center;
+}
+
+.l_mid table td .l_button2 {
+	background: url(../../images/declare/login/login_zc.gif) no-repeat;
+}
+
+.l_zc p {
+	text-align: center;
+	margin-top: 0px;
+	color: #7b7b7b;
+}

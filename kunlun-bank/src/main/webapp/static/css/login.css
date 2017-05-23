@@ -1,0 +1,151 @@
+@charset "UTF-8";
+
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote,
+	/* structural elements 结构元素 */ dl, dt, dd, ul, ol, li,
+	/* list elements 列表元素 */ pre, /* text formatting elements 文本格式元素 */
+	form, fieldset, legend, button, input, textarea,
+	/* form elements 表单元素 */ th, td, /* table elements 表格元素 */ img
+	/* img elements 图片元素 */
+	/** 设置默认字体 **/  
+body, button, input, select, textarea {
+	font: 12px/1.5 '宋体', tahoma, Srial, helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+
+em {
+	font-style: normal;
+}
+/** 重置网页元素 **/
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	margin: 0;
+	padding: 0;
+	border: 0px;
+}
+
+ul, ol {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #F40;
+}
+
+p {
+	margin: 0px;
+	padding: 0px;
+	text-indent: 20pt;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+/** 重置表格元素 **/
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input, button, select, textarea {
+	outline: none
+}
+
+textarea {
+	resize: none
+} /*重置表单样式*/
+/*  共用样式  */
+.mrg_top {
+	margin-top: 7px;
+}
+
+.clear_b {
+	clear: both;
+}
+
+.flaot_r {
+	float: right;
+}
+
+.flaot_l {
+	float: left;
+}
+
+.noborder {
+	border: none;
+}
+
+/*登陆5*/
+.Login5 {
+	background: url(../images/login/login_all.png) repeat-x #e0e0e0;
+}
+
+.Login5_whole {
+	background: url(../images/login/login_bg.png) no-repeat;
+	width: 649px;
+	height: 319px;
+	margin: 149px auto 0px;
+	position: relative;
+}
+
+.Login5_content {
+	position: absolute;
+	width: 240px;
+	height: 155px;
+	bottom: 80px;
+	left: 195px;
+}
+
+.Login5_word {
+	font: 12px;
+	text-align: right;
+	color: #575353;
+	height: 35px;
+	line-height: 35px;
+}
+
+.Login5_content table {
+	border-collapse: collapse;
+}
+
+.L5_input {
+	background: #FFF;
+	border: #b9b9ba solid 1px;
+	width: 175px;
+	height: 20px;
+}
+
+.L5_anniu {
+	width: 73px;
+	height: 32px;
+	border: none;
+	padding: 0px;
+	margin: 0px;
+	cursor: pointer;
+	background: url(../images/login/login5_dl.png) no-repeat;
+	color: #FFF;
+	margin-right: 20px;
+}
+
+.bottom_word {
+	width: 650px;
+	height: 15px;
+	text-align: center;
+	margin: 15px auto;
+}
