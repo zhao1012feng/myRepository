@@ -1,0 +1,28 @@
+body{font-weight:normal;margin:0px;padding:0px;background:#FFFFFF;text-transform:capitalize;font-size:12px;}
+body, button, input,span,td, select, textarea{font-size:12px;font-family:"宋体";}
+div,ol,ul,li,dir,form,img,span,h1,h2,h3,h4,h5,select,option,table,tr,td,input{margin:0px;padding:0px;border:0px;list-style-type:none; list-style:none; border:none}
+a{text-decoration:none;}
+
+
+/*头部*/
+#top{ height:107px;}
+.top_left{ float:left; background:url(../../images/manage/top/logo_01.jpg) no-repeat; height:107px;}
+.top_right{float:right; background:url(../../images/manage/top/title_bj_03.jpg) repeat-x; height:107px; width:100%x}
+.topshang{ line-height:40px; }
+.top_lianjie{width:285px; float:right;}
+.top_lianjie span{ padding-left:25px;}
+#nav{width:760px; height:28px; float:right; padding-top:14px; text-align:right;}
+.nav ul{}
+#nav ul li{ line-height:28px; padding-right:8px;float:right; }
+#nav ul li a{ float:left;line-height:28px; text-align:center;background:url(../../images/manage/top/nav_anniu_06.jpg) no-repeat; width:99px; height:28px; color:#0084d0}
+#nav ul li a:hover{ background:url(../../images/manage/top/nav_boveranniu_06.jpg) no-repeat; width:99px; height:28px;  float:left; color:#FFF; font-weight:bold;}
+#nav li.sfhover ul {left: auto;}
+.current {background:url(../../images/manage/top/nav_boveranniu_06.jpg) no-repeat;}/*鼠标点击时变换背景，方便JS获取样式*/
+.current span{background:url(../../images/manage/top/nav_boveranniu_06.jpg) no-repeat; width:99px; height:28px; float:left;color:#FFF; font-weight:bold;}
+
+
+
+
+
+
+

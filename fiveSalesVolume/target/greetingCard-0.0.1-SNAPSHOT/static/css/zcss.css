@@ -1,0 +1,22 @@
+@charset "utf-8";
+*{margin:0; padding:0;}
+a{ text-decoration:none;}
+ul{ list-style:none;}
+img{ border:none;}
+body{ font-family:Verdana, Geneva, sans-serif; font-size:12px;text-align:center  }
+div{ padding:0px; margin:0px;}
+.clear{ clear:both;}
+.z_logo{ background:url(../images/expertimg/logo_bg.gif) repeat-x; height:100px;}
+.z_logo_left{ background:url(../images/expertimg/logo_left.gif) no-repeat left; width:351px; height:31px; float:left; display:block; margin-top:35px; margin-left:30px; }
+.z_logo_right{ background:url(../images/expertimg/logo_right.gif) no-repeat left; height:55px; width:263px; float:right; padding:45px 0px 0px 125px; line-height:16px;}
+.z_user{ background:url(../images/expertimg/admin.gif) no-repeat; padding-left:20px; display:block; float:left; color:#FFF; margin-right:40px;}
+.z_out{ background: url(../images/expertimg/exit.gif) no-repeat; padding-left:20px; display:block; float:left; color:#fff; width:60px; height:15px; }
+.z_bg{ background:url(../images/expertimg/z_bg.gif) repeat-x #eeeeee;}
+.z_wel_font{ background-image:url(../images/expertimg/z_word.gif); width:386px; height:28px; margin:70px auto 30px auto;}
+.z_mid{ width:656px; height:380px; margin:0 auto; overflow:hidden; }
+.z_mid a{ width:130px; display:block; float:left; line-height:30px; color:#1c5a73; font-weight:bold; text-align:center; margin:15px 15px 0px; font-size:14px;}
+.z_mid img{ margin-bottom:20px;}
+.z_foot{ line-height:30px; border-top: solid 1px #ccc; text-align:center; padding-top:20px;}
+.place_middle{margin:0px auto; width:1004px; text-align:center}
+.maq_a{ text-decoration:none; color:red; margin-right:30px;}
+.maq_a:hover{ color:#147391;text-decoration: none;}

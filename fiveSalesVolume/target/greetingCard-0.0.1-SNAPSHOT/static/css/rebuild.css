@@ -1,0 +1,143 @@
+/* CSS Document */
+.clear{
+	clear:both;height:0;
+	}
+.col-lg-12 h1{
+	font-size:1.125em;color:#c50127;font-family:"微软雅黑";margin-top:20px;
+	}
+.btn_red{
+	color:#fff;background:#0e6eba;border:none; border-radius:0;
+	}
+.fr{
+	float:right;display:inline-block;padding-top:1px;
+	}
+
+@media screen and (max-width: 1100px) and (min-width:992px){
+	.fr{
+		float:none;margin-top:20px;clear:both;
+		}
+	}
+@media screen and (max-width: 1100px) and (min-width:992px){
+	.fr{
+		
+		}
+	}
+@media screen and (max-width: 840px) and (min-width:768px){
+	.fr{
+		clear:both;margin-top:20px;float:left;padding-top:0px;
+		}
+	}
+@media screen and (max-width: 480px) and (min-width:0px){
+	.fr{
+		margin-top:20px;padding-top:0px;float:none;
+		}
+	.fr .btn{
+		margin-top:10px;
+		}
+	}
+.fr .btn{
+	background:#0e6eba;color:#FFF;border:none; border-radius:0;
+	}
+.fr .btn img{
+	margin-right:7px;
+	}
+.check_th{
+	width:5%;
+	}
+.table{
+	font-size:16px !important; border-bottom:2px solid #999;
+}
+.table-responsive td{
+	text-align:center;
+	}
+.selectBox{
+	width:15px;height:15px;
+	}
+.table-responsive .edit{
+	background:#f2f2f4;border:1px solid #e5e5e7; border-radius:0;color:#545456;
+	}
+.table-responsive .resetBtn{
+	background:#f2f2f4;border:1px solid #e5e5e7; border-radius:0;color:#545456;
+	}
+.table-responsive .resetBtn img{
+	margin-right:7px;
+	}
+.table-responsive .edit img{
+	margin-right:7px;
+	}
+.hidden-xxs a {
+	line-height:1.5em;height:1.5em;
+	}
+.hidden-xxs a:hover{
+	background:#1063a5 !important;
+	}
+.hidden-xxs a i{
+	margin-right:5px;font-size:1.5em !important;
+	}
+.modal-backdrop{
+	z-index:1039; position:fixed !important;
+	}
+a.edit:hover{
+	color:#000;	
+	}
+@media (min-width: 768px){
+.tl{
+	text-align:left !important;
+	}
+}
+.modal-header{
+	background:#0e6eba;
+	}
+.modal-title{
+	color:#FFF;font-family:"微软雅黑";font-weight:bold;font-size:1.2em;letter-spacing:1px;
+	}
+.modal-footer{
+	text-align:center;
+	}
+.special_red{
+	background:#0e6eba;padding:5px 1.5em; border:none; border-radius:0;
+	}
+.special_gray{
+	background:#a0a0a0;padding:5px 1.5em; border:none; border-radius:0;
+	}
+select.form-control{
+	
+	margin-right: 1em;
+}
+.fl{
+	float:left !important;
+}
+
+
+/*登陆页面*/
+
+#login-box .login_on{
+	background:#0e6eba;color:#fff;border:none; border-radius:0;
+	}
+.modal-dialog_big{
+	width:1000px !important;
+}
+	
+.yzm{
+	width:50% !important;
+	}
+.input-group img{
+	margin-left:10%;
+	}
+	
+	
+	
+.tx{
+	color:#ff0000;
+	text-align:center;
+	margin-top:90px;
+	
+}
+form{
+	margin:0;
+}
+
+
+.navbar-collapse:after{
+	clear:both;
+}

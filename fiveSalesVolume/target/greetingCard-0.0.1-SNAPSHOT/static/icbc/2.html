@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+		<link rel="stylesheet" href="css/css.css">
+		
+	</head>
+	<body>
+		<div class="box2">
+			<div class="mian-1">
+				<div><img src="images/2_01.jpg" /></div>
+				<div><img src="images/2_02.jpg" /></div>
+				<div><img src="images/2_03.jpg" /></div>
+				<div><img src="images/2_04.jpg" /></div>
+				<div><img src="images/2_05.jpg" /></div>
+				<div><img src="images/2_06.jpg" /></div>
+				<div><img src="images/2_07.jpg" /></div>
+				<div><img src="images/2_08.jpg" /></div>
+				<div><img src="images/2_09.jpg" /></div>
+				<div><img src="images/2_10.jpg" /></div>
+				<div><img src="images/2_11.jpg" /></div>
+				<div><img src="images/2_12.jpg" /></div>
+				<div><img src="images/2_13.jpg" /></div>
+				<div><img src="images/2_14.jpg" /></div>
+				<div><img src="images/2_15.jpg" /></div>
+				<div><img src="images/2_16.jpg" /></div>
+			</div>
+			<div class="box2-top"><img src="img/box2-top.png" /></div>
+			<p class="topp">剩余<span>3</span>抽奖机会</p>
+    		<div class="mian-2">
+    			<div class="rotate-con-pan">
+					<div class="rotate-con-zhen"></div>
+				</div>
+    		</div>
+    		
+			<div class="main-3">
+				<div class="box2-mian">
+					<div class="box2-left" style="background: #fdb159;">中奖记录</div>
+					<div class="box2-right">抽奖规则</div>
+				</div>
+				<div class="box2-body">
+					<div><span>一等奖</span><span class="time">剩余时间：71:36:28</span><button>兑换</button></div>
+					<div><span>一等奖</span><span class="time">剩余时间：71:36:28</span><button>兑换</button></div>
+					<div><span>一等奖</span><span class="time">剩余时间：71:36:28</span><button>兑换</button></div>
+					<div><span>一等奖</span><span class="time">剩余时间：71:36:28</span><button>兑换</button></div>
+					<div><span>一等奖</span><span class="time">剩余时间：71:36:28</span><button>兑换</button></div>
+					<div><span>一等奖</span><span class="time">剩余时间：71:36:28</span><button>兑换</button></div>
+				</div>
+				<div class="box2-body" style="display: none;">
+					<ul>
+						<li>每个中奖者在兑奖时均需先购买《迪士尼米奇米妮幸福之旅纪念册大套装》一套后方可按规定兑奖。</li>
+						<li>本活动设一等奖：上海迪士尼门票，价值499元；二等奖：米奇或米妮玩偶（随机）；三等奖：一元或两元微信红包。</li>
+						<Li>每位参与者初始可获得三次抽奖资格，每日分享链接后当天可增加一次抽奖机会，中奖率100%。</Li>
+						<li>每个奖项后台只保留3天期限，请在中奖后3天内依据规则兑换，过期无效。</li>
+						<li>参与者抽中奖品后会随机产生四位数的兑换码，需要到山东省境内任意工商银行网点购买《迪士尼米奇米妮幸福之旅纪念册大套装》一套，然后登记自己基本信息，需跟交易凭证对应，每个兑换码仅限兑换一次，兑换后立即失效，厂家工作人员会在15个工作日后兑换相关奖品，部分奖品快递需本人签收。</li>
+						<li>参与者抽中一等奖后，可更换为等价值499元微信红包奖励，需要15个工作日核实无误兑现，本活动所有兑奖工作有国金黄金负责，兑奖范围只能在山东省工商银行境内完成，国金黄金有最终解释权。</li>
+					</ul>
+				</div>
+				<a href="3.html" class="main-bottom"><img src="img/3.png" /></a>
+			</div>
+			
+			
+			<div class="cover" style="display: none;">
+				<div class="main-4" >
+					<div class="main4-top"><img src="img/cha.jpg" /></div>
+					<div class="main4-p">请留下您的信息，方便工作人员联系您！</div>
+					<input type="text" placeholder="请输入您的姓名"/>
+					<p></p>
+					<input type="tel" placeholder="请输入您的手机号码" maxlength="11"/>
+					<p></p>
+					<input type="text" placeholder="请输入您的邮件地址"/>
+					<div class="main4-bottom">注：如果抽中一、二等奖 ，邮寄地址请务必填写！</div>
+					<button class="btn">提 交</button>
+				</div>
+				
+				<div class="main-5" style="display: none;">
+				    <div class="main4-top"><img src="img/cha.jpg" /></div>
+				    <p class="da">兑换码</p>
+				    <div class="dhm">5788</div>
+				    <p>注：在提交兑换码之前，请务必先到银行购买《迪士尼米奇米妮幸福之旅纪念册大全套》产品。购买后现场点击提交。否则提交无效！</p>
+				    <button class="btn2">提 交</button>
+				</div>
+			</div>
+			
+    	</div>
+    	
+		<script>
+			window.onload = window.onresize = function () {
+				var view_width = document.getElementsByTagName('html')[0].getBoundingClientRect().width;
+			
+			var _html = document.getElementsByTagName('html')[0];
+			
+			if (view_width > 640)
+			{
+				_html.style.fontSize = 640 / 16 + 'px';
+			}
+			else
+			{
+				_html.style.fontSize = view_width / 16 + 'px';
+				} 
+			};
+		</script>
+		<script type="text/javascript" src="js/jquery-1.8.2.min.js"></script>
+		<script type="text/javascript" src="js/jQueryRotate.js"></script>
+	
+	
+	<script type="text/javascript">
+		$(function(){
+			var a = document.getElementsByClassName('box2-mian')[0];
+			var b = a.children;
+			var c = document.getElementsByClassName('box2-body');
+			for(var i=0;i<b.length;i++){
+				b[i].index = i;
+				b[i].onclick = function(){
+					for(var y=0;y<b.length;y++){
+						b[y].style.background = '#e69130';
+						c[y].style.display = 'none';
+					}
+					b[this.index].style.background = '#fdb159';
+					c[this.index].style.display = 'block';
+				};
+			}    
+			$('.box2-body').on('click','button',function(){
+				//$('.main-4').hide();
+				$('.main-5').hide();
+				$('.cover').show();
+				$('.main-4').show();
+			});
+			
+			
+			$('.main4-top').on('click',function(){
+				$('.cover').hide();
+			});
+			
+			var aText = ['请输入姓名!','请输入手机号码!'];
+			var aTextWrong = ['请输入正确姓名!','请输入正确手机号!'];
+			var regArray = [/^[\u4e00-\u9fa5]+$/,/^0?1[3|4|5|7|8][0-9]\d{8}$/];
+			var fuinput = document.getElementsByClassName('main-4')[0];
+			var fuinputChild = fuinput.getElementsByTagName('input');
+			var fuinputp = fuinput.getElementsByTagName('p');
+			for(var i=0;i<2;i++){
+				fuinputChild[i].index = i;
+				fuinputChild[i].onfocus = function(){
+					fuinputp[this.index].innerHTML = '';
+				};
+			}
+			
+			for(var i=0;i<2;i++){
+				fuinputChild[i].index = i;
+				fuinputChild[i].onblur = function(){
+					var reg = regArray[this.index];
+					if(fuinputChild[this.index].value == ''){
+						fuinputp[this.index].innerHTML = aText[this.index];
+						
+					}else if(!reg.test(fuinputChild[this.index].value)){
+						fuinputp[this.index].innerHTML = aTextWrong[this.index];
+						
+					}
+				};
+			}
+			
+			
+			$('.btn').on('click',function(){
+				for(var i=0;i<2;i++){
+					if(fuinputChild[i].value == ''){
+						fuinputp[i].innerHTML = aText[i];
+						return false;
+					}
+					if(fuinputp[i].innerHTML != ''){
+						return false;
+					}
+				}
+				
+				$.ajax({
+					type:"get",
+					url:"1.json",
+					data:{Name:"sanmao",Password:"sanmaoword"},
+					async:true,
+					//dataType:'json',
+					success:function(data){
+						$('.main-4').hide();
+						$('.main-5').show();
+					},
+					error:function(){
+						alert('网速不给力，请稍后再试！');
+					}
+				});
+			});
+			$('.btn2').on('click',function(){
+				$.ajax({
+					type:"get",
+					url:"1.json",
+					data:{Name:"sanmao",Password:"sanmaoword"},
+					async:true,
+					//dataType:'json',
+					success:function(data){
+						$('.cover').hide();
+					},
+					error:function(){
+						alert('网速不给力，请稍后再试！');
+					}
+				});
+			});
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			$(".rotate-con-zhen").rotate({
+				bind:{
+					click:function(){
+						var a = runzp();
+						console.log($(this));
+						 $(this).rotate({
+							 	duration:3000,               //转动时间
+							 	angle: 0,                    //起始角度
+		            			animateTo:1440+a.angle,      //结束的角度
+								easing: $.easing.easeOutSine,//动画效果，需加载jquery.easing.min.js
+								callback: function(){
+									alert(a.message+a.prize);//简单的弹出获奖信息
+								}
+						 });
+					}
+				}
+			});
+		});
+
+
+		function randomnum(smin, smax) {// 获取2个值之间的随机数
+			var Range = smax - smin;
+			var Rand = Math.random();
+			return (smin + Math.round(Rand * Range));
+		}
+		
+		function runzp() {
+			var data = '[{"id":1,"prize":"一等奖——上海迪士尼门票","v":1.0},{"id":2,"prize":"二等奖——(米奇/米妮)玩偶","v":2.0},{"id":3,"prize":"两元","v":3.0},{"id":3,"prize":"一元","v":48.0}]';// 奖项json
+			var obj = eval('(' + data + ')');
+			var result = 100;
+			var line = 0;
+			var temp = 0;
+			var returnobj = "0";
+			var index = 0;
+		
+			//alert("随机数"+result);
+			for ( var i = 0; i < obj.length; i++) {
+				var obj2 = obj[i];
+				var c = parseFloat(obj2.v); // 1   2   3    48
+				//alert(c);
+				temp = temp + c;   // 1  3  6  54
+				//alert(temp);
+				line = 100 - temp; // 99    97   94  46
+				//alert(line);  
+				if (c != 0) {
+					if (result > line && result <= (line + c)) {  //          99    97   94   46 < 随机数 <= 100    99   97   94            
+						index = i;
+						 alert(i+"中奖"+line+"<result"+"<="+(line + c));
+						returnobj = obj2;
+						break;
+					}
+				}
+			}
+			console.log(returnobj+index);
+			var angle = 330;
+			var message = "";
+			var myreturn = new Object;
+			if (returnobj != "0") {// 有奖
+				message = "恭喜您中了";
+				var angle0 = [ 344, 373 ];  //一等奖区间
+				var angle1 = [ 226, 256 ];  //二等奖区间
+				var angle2 = [ 109, 136 ];  //三等奖
+				var angle3 = [ 109, 136 ];  //三等奖
+				switch (index) {
+				case 0:// 一等奖
+					var r0 = randomnum(angle0[0], angle0[1]);
+					angle = r0;
+					break;
+				case 1:// 二等奖
+					var r1 = randomnum(angle1[0], angle1[1]);
+					angle = r1;
+					break;
+				case 2:// 三等奖
+					var r2 = randomnum(angle2[0], angle2[1]);
+					angle = r2;
+					break;
+				case 3:// 三等奖
+					var r3 = randomnum(angle3[0], angle3[1]);
+					angle = r3;
+					break;
+				}
+				myreturn.prize = returnobj.prize;
+			}
+			myreturn.angle = angle;
+			myreturn.message = message;
+			return myreturn;
+		}// JavaScript Document
+		
+		
+</script>
+	</body>
+</html>
