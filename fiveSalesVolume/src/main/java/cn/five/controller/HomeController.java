@@ -17,6 +17,6 @@ public class HomeController extends Controller{
 		System.out.println("appSecret:"+map.get("appSecret"));*/
 		System.out.println("-----------------------------------------");
 		
-		renderText("登录成功"); 
+		renderText("登录成功");   
 	} 
 }
