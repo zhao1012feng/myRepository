@@ -18,5 +18,5 @@ public class HomeController extends Controller{
 		System.out.println("-----------------------------------------");
 		
 		renderText("登录成功"); 
-	}
+	} 
 }
